@@ -1,22 +1,22 @@
 # Programacao_para_internet
 
-# Filipe Vilanova Neiva
+### Filipe Vilanova Neiva
 
-# Contatos
+### Contatos
   * celular: (86) 99443-6385
   * email: filipevilanovaneiva@gmail.com
 
-# Habilidades
+### Habilidades
   * Desenvolvimento mobile(android)
   
-# I nteresses Acadêmicos e proficionais
+### Interesses Acadêmicos e proficionais
   * Django
   * Vuejs
   * Openvc
   
-# Portifólio
+### Portifólio
   * https://github.com/vikvik98/ProjetoEventos
   * https://github.com/FilipeNeiva/POO-2017-FILIPE
   
-# Expectativas:
+### Expectativas:
   * ...
