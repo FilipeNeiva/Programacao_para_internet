@@ -5,7 +5,7 @@ Contatos
   email: filipevilanovaneiva@gmail.com
 
 Habilidades
-  Desenvolvimento mobile
+  Desenvolvimento mobile(android)
   
 Interesses Acadêmicos e proficionais
   Django
