@@ -3,16 +3,14 @@
 ### Filipe Vilanova Neiva
 
 ### Contatos
-  * celular: (86) 99443-6385
-  * email: filipevilanovaneiva@gmail.com
+  * Telefone: (86) 99443-6385
+  * Email: filipevilanovaneiva@gmail.com
 
 ### Habilidades
   * Desenvolvimento mobile(android)
   
 ### Interesses Acadêmicos e proficionais
-  * Django
-  * Vuejs
-  * Openvc
+  * Processamento de imagens
   
 ### Portifólio
   * https://github.com/vikvik98/ProjetoEventos
