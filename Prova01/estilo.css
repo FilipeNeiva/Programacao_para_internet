@@ -1,0 +1,128 @@
+* {
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+header {
+    background-color:#FFF;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.header #menu ul {
+    margin: 0px;
+    padding:5px;
+    padding-right: 10%;
+    padding-left: 10%;
+    list-style:none;
+    text-align: right;
+}
+
+.header #menu h1 {
+	text-align: left;
+}
+
+
+.header #menu ul li { 
+    display: inline;
+}
+
+.header #menu ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+    background-color:#FFFFFF;
+    color: #777777;
+    text-decoration: none;
+    border-bottom:3px solid #FFFFFF;
+}
+
+.header #menu ul li a:hover {
+    color: rgb(0, 0, 0);
+    border-bottom:3px solid #F16529;
+}
+
+main {
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 3%;
+}
+
+#postagens {
+	float: left;
+	width: 60%;
+}
+
+.card {
+
+
+	/*display: inline-flex;*/
+}
+
+#imagens {
+	width: 40%;
+}
+
+.card img {
+	width: 100%;
+}
+
+
+/*.card #conteudo {
+	width: 50%;
+}
+*/
+
+
+#direita {
+	width: 30%;
+	float: right;
+}
+
+#direita * {
+	margin-bottom: 2%;
+	width: 100%;
+}
+
+#assinar_postagem {
+	background-color: #FFF;
+	padding: 5%;
+}
+
+#card_redes {
+	background-color: #FFF;
+	padding: 5%;
+}
+
+#card_anuncio {
+	background-color: #FFF;
+	padding: 5%;
+}
+
+button {
+	background-color: #CF143C;
+	color: #FFF;
+}
+
+
+footer {
+	color: #FFF;
+	background-color: #000;
+	padding: 1%;
+	bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+body {
+	background-color: #EDEDED;
+	padding: 0 auto;
+	margin: 0 auto
+}
+
+
+#postagens {
+	background-color: #FFF
+}
