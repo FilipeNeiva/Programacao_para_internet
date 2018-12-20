@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: cieloApi3
+Version: 0.1.5
+Summary: SDK API-3.0 Python Cielo
+Home-page: https://github.com/thiago-Malaca/API-3.0-Python
+Author: Thiago Malaquias
+Author-email: thiago.malaca@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: api3.0 cielo python sdk ecommerce
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
