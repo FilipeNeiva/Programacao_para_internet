@@ -1,6 +1,9 @@
 from django.db import models
 
 # Create your models here.
+from django.db.models import DateTimeField
+
+
 class Game(models.Model):
 	created = models.DateTimeField(auto_now_add=True)
 	name = models.CharField(max_length=200, blank=True, default='')
@@ -18,6 +21,7 @@ class Player(models.Model):
     date_register = models.DateField()
 
 class Score(models.Model):
+    score = models.FloatField()
+	score_date = models.DateTimeField()
     player = models.ForeignKey(Player, on_delete=models.CASCADE)
     game = models.ForeignKey(Game, on_delete=models.CASCADE)
-    score = models.FloatField()

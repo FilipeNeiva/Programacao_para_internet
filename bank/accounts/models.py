@@ -6,4 +6,4 @@ from datetime import datetime
 class Account(models.Model):
     owner = models.CharField(max_length=50)
     balance = models.FloatField()
-    creation_date = models.DateTimeField(default=datetime.now())
+    creation_date = models.DateTimeField()

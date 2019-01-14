@@ -29,7 +29,7 @@ def game_list(request):
         return Response(game_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 
-@api_view(['GET', 'PUT', 'POST', 'DELETE'])
+@api_view(['GET', 'PUT' , 'DELETE'])
 def game_detail(request, id):
     try:
         game = Game.objects.get(pk=id)
