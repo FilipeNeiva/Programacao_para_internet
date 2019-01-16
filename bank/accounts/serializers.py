@@ -4,7 +4,7 @@ from .models import Account
 
 class AccountSerializer(serializers.ModelSerializer):
 
-    creation_date = serializers.DateTimeField(read_only=True,default=timezone.now)
+    creation_date = serializers.DateTimeField(read_only=True)
 
     class Meta:
 
@@ -14,4 +14,6 @@ class AccountSerializer(serializers.ModelSerializer):
     def validate(self, data):
         if data['balance'] < 0:
             raise serializers.ValidationError('The balance cannot to be negative')
+        # elif data['creation_date'] != timezone.now:
+        #     raise serializers.ValidationError('The creation date is auto')
         return data
