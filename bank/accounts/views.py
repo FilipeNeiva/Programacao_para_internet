@@ -24,7 +24,7 @@ def account_list(request):
         return Response(account_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 
-@api_view(['GET', 'PUT', 'DELETE'])
+@api_view(['GET', 'PUT', 'DELETE', 'PATCH'])
 def account_detail(request, id):
     try:
         account = Account.objects.get(pk=id)
@@ -38,7 +38,7 @@ def account_detail(request, id):
     elif request.method == 'PUT':
         account_serializer = AccountSerializer(account, data=request.data)
 
-        if account_serializer.is_valid(raise_exception=True):
+        if account_serializer.is_valid():
             account_serializer.save()
             return Response(account_serializer.data, status=status.HTTP_201_CREATED)
 
@@ -47,3 +47,15 @@ def account_detail(request, id):
     elif request.method == 'DELETE':
         account.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)
+
+    elif request.method == 'PATCH':
+
+        print(request.data['balance'])
+
+        account_serializer = AccountSerializer(account, data=request.data, partial=True)
+
+        if account_serializer.is_valid():
+            account_serializer.save()
+            return Response(account_serializer.data, status=status.HTTP_200_OK)
+
+        return Response(account_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
